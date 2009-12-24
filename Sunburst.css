@@ -1,0 +1,158 @@
+/*
+    @theme Textmate's Sunburst port for Espresso
+    @override-placeholders html, xml, css, sourcecode.js, sourcecode.php
+    @author Jose Elera
+    @version 0.1
+    
+    This is a port of the Sunburst theme for TextMate.
+    The original theme can be found at: 
+    TextMate can be found at: http://macromates.com/
+*/
+
+/* @group Global syntax coloring */
+
+@base {
+	color: #f8f8f8;
+	background-color: #141414;
+	insertion-point-color: #fff;
+	selection-background-color: #464646;
+}
+
+comment {
+	color: #595d61;
+	font-style: italic;
+}
+
+tag {
+	color: #739fd7;
+	
+}
+
+attribute-name {
+	color: #a9dfe0;
+}
+
+attribute-value {
+	color: #63ae40;
+}
+
+literal.keyword.bool {
+	color:#fba3c2;
+}
+
+
+/* @end */
+
+/* @group HTML*/
+
+tag.doctype {
+	color: #4c6b92;
+}
+
+/* @end */
+
+/* @group Javascript*/
+
+support.class {
+	color: #af96b3;
+}
+
+keyword {
+	color: #ea8e67;
+}
+
+storage.type {
+	color: #98cf4f;
+}
+
+name {
+	color: #89bdff;
+}
+
+constant.numeric {
+	color: #3387cc;
+}
+
+support.function {
+	color: #d8ce83;
+}
+
+string.quoted {
+	color: #4f8e34;
+}
+
+variable.parameter.function {
+	color: #377acf;
+}
+
+/* @end */
+
+/* @group CSS */
+
+selector.css {
+	color: #618cc7;
+	font-weight: bold;
+}
+
+property-name {
+	color: #c05c1f;
+}
+
+property-value {
+	color: #96c664;
+}
+
+itemize.group-start {
+	color: #fba3c2;
+}
+
+itemize.group-end {
+	color: #fba3c2;
+}
+
+variable.parameter {
+	color: #3c85e2;
+}
+
+zkeyword.other.zunit {
+	color: #527035;
+}
+/* @end */
+
+/* @group PHP*/
+
+identifier.function.import > name {
+	color: #b56e50;
+}
+
+operator {
+	color: #e28964;
+}
+
+identifier.function  {
+	color: #dad085;
+}
+
+/* @end */
+
+/* @group ColdFusion*/ /* You gotta have installed the ColdFusion Sugar*/
+entity.name.tag.cfm {
+	color: #81ACA5;
+}
+
+source.sql {
+	color: #E1F286;
+}
+
+entity.name.tag.cfquery.cfm, entity.name.tag.cfoutput.cfm {
+	color: #BC9541;
+}
+
+/* @end */
+
+/* @group Ruby*/
+/* @end */
+
+/* @group jQuery*/
+/* @end */
+
