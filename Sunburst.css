@@ -133,6 +133,10 @@ identifier.function  {
 	color: #dad085;
 }
 
+literal.numeric.integer {
+	color: #3387cc;
+}
+
 /* @end */
 
 /* @group ColdFusion*/ /* You gotta have installed the ColdFusion Sugar*/
