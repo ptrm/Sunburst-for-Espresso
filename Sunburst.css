@@ -73,6 +73,11 @@ constant.numeric {
 	color: #3387cc;
 }
 
+constant.escape {
+	font-weight: bold;
+	background: rgba(255,255,255, 0.05);
+}
+
 support.function {
 	color: #d8ce83;
 }
@@ -142,6 +147,10 @@ identifier.function  {
 }
 
 literal.numeric.integer {
+	color: #3387cc;
+}
+
+literal.numeric.float {
 	color: #3387cc;
 }
 
