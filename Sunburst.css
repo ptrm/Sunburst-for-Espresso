@@ -94,6 +94,14 @@ selector.css {
 	font-weight: bold;
 }
 
+class.selector.css {
+	color: #416ca7;
+}
+
+id.selector.css {
+	color: #91bcf7;
+}
+
 property-name {
 	color: #c05c1f;
 }
