@@ -1,6 +1,6 @@
 /*
     @theme Textmate's Sunburst port for Espresso
-    @override-placeholders html, xml, css, sourcecode.js, sourcecode.php
+    @override-placeholders html, xml, css, sourcecode.js, sourcecode.php, sourcecode.smarty
     @author Jose Elera - http://www.twitter.com/jelera
     @version 0.3
     
@@ -22,6 +22,11 @@ comment {
 	color: #595d61;
 	font-style: italic;
 }
+
+comment > punctuation {
+	color: #595d61;
+}
+
 
 tag {
 	color: #739fd7;
@@ -47,6 +52,10 @@ literal.keyword.bool {
 
 tag.doctype {
 	color: #4c6b92;
+}
+
+constant.character.entity.html {
+	color: #fba3c2;
 }
 
 /* @end */
@@ -88,6 +97,14 @@ string.quoted {
 
 variable.parameter.function {
 	color: #377acf;
+}
+
+support.constant.dom.js {
+	color: #bfa6d3;
+}
+
+constant.language.boolean.js {
+	color: #bfa6d3;
 }
 
 /* @end */
@@ -177,3 +194,18 @@ entity.name.tag.cfquery.cfm, entity.name.tag.cfoutput.cfm {
 /* @group jQuery*/
 /* @end */
 
+/* @group Smarty */
+
+sourcecode.smarty variable {
+	color: #7cc5ff;
+}
+
+sourcecode.smarty element attribute {
+	color: #f8eea3;
+}
+
+sourcecode.smarty delimiter.balanced.bracket.curly-brace {
+	color: #a09750;
+}
+
+/* @end */
